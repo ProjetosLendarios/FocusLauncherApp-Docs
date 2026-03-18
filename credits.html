@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Créditos do Focus Launcher e apresentação do autor da aplicação."
+    />
+    <title>Créditos · Focus Launcher</title>
+    <link rel="icon" type="image/png" href="Res/PlayStore/icon_512x512_image.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Focus Launcher">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-title">Focus Launcher</span>
+          <span class="brand-subtitle">Créditos e autor</span>
+        </span>
+      </a>
 
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a class="active" href="credits.html">Créditos</a>
+        <a href="privacy.html">Privacidade</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero">
+        <div class="section-head fade-up">
+          <span class="section-label">Créditos</span>
+          <h1>Créditos</h1>
+          <p class="section-copy">
+            Referências principais do projeto Focus Launcher, recursos usados e
+            notas de atribuição.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="author-grid">
+          <div class="portrait-shell fade-up">
+            <img
+              src="Res/GoncaloGarrido/GoncaloGarrido%20(2).jpg"
+              alt="Retrato de Gonçalo Garrido."
+            />
+          </div>
+
+          <article class="author-card fade-up delay-2">
+            <span class="section-label">Desenvolvimento e direção do projeto</span>
+            <h2>Gonçalo Garrido</h2>
+            <p>
+              Desenvolvimento e direção geral do projeto
+              <strong>Focus Launcher</strong>.
+            </p>
+            <div class="author-meta">
+              <span class="muted-line"
+                >Contacto: goncalosantosgarrido@gmail.com</span
+              >
+              <span class="muted-line"
+                >Agradecimento discreto à MS pelo apoio.</span
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card-grid feature-grid credits-grid">
+          <article class="feature-card fade-up delay-1">
+            <span class="feature-index">Tipografia</span>
+            <h3>Josefin Sans</h3>
+            <p>de Santiago Orozco</p>
+          </article>
+
+          <article class="feature-card fade-up delay-2 credits-offset">
+            <span class="feature-index">Dados e ícones de meteorologia</span>
+            <h3>OpenWeatherMap</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split-grid">
+          <article class="note-card fade-up">
+            <span class="section-label">Tecnologias e bibliotecas utilizadas</span>
+            <h2>Stack tecnológica</h2>
+            <div class="stack-list">
+              <p>
+                <strong>Linguagem e base Android</strong><br />
+                Kotlin, Android SDK, AndroidX e Material Components for Android
+              </p>
+              <p>
+                <strong>UI e estrutura</strong><br />
+                ViewBinding, layouts configuráveis por ecrã e navegação entre
+                páginas do launcher
+              </p>
+              <p>
+                <strong>Persistência e dados locais</strong><br />
+                SharedPreferences, armazenamento interno e SQLite
+              </p>
+              <p>
+                <strong>Rede e processamento</strong><br />
+                Retrofit, Gson Converter e Kotlin Coroutines
+              </p>
+              <p>
+                <strong>Localização e media</strong><br />
+                Google Play Services Location e Picasso
+              </p>
+            </div>
+          </article>
+
+          <article class="quote-card fade-up delay-2">
+            <span class="section-label">Estrutura do projeto</span>
+            <h3>Componentes principais</h3>
+            <div class="stack-list">
+              <p>
+                <strong>MainActivity</strong><br />
+                Contentor principal do launcher e gestor das páginas
+              </p>
+              <p>
+                <strong>HomeFragment</strong><br />
+                Ecrã principal com informação central e apps fixadas
+              </p>
+              <p>
+                <strong>AppDrawerFragment</strong><br />
+                Lista completa de apps com pesquisa e navegação alfabética
+              </p>
+              <p>
+                <strong>LauncherSettingsActivity</strong><br />
+                Hub principal de configurações
+              </p>
+              <p>
+                <strong>ScreensSettingsActivity</strong><br />
+                Gestão dos ecrãs ativos e da ordem de navegação
+              </p>
+              <p>
+                <strong>HomeContentSettingsActivity</strong><br />
+                Configuração do conteúdo e dos layouts da home
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-shell footnote">
+      <div class="footer-line">
+        <span>Créditos do Focus Launcher</span>
+        <div class="nav-links">
+          <a href="index.html">Início</a>
+          <a href="privacy.html">Privacidade</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
