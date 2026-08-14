@@ -2,7 +2,7 @@
 
 Launcher Android minimalista, rapido e personalizavel, pensado para manter no ecra principal apenas o que interessa.
 
-Versao atual: `1.25` (`versionCode 25`)
+Versao atual: `1.26` (`versionCode 26`)
 
 ## Autor
 
